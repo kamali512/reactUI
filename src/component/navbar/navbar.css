@@ -1,0 +1,44 @@
+.navbar{
+    background-color: rgba(176, 39, 39, 0.929);
+    height: 80px;
+}
+.navbar ul{
+    margin-left:3%;
+}
+.navbar a{
+    color: white;
+    font-size: 16px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar .navbar-brand .w_size{
+    font-size: 40px;
+}
+.navbar ul li{
+    margin-right:20px;
+}
+.navbar ul li:hover {
+ background-color:#ffffffe4;
+width: 140px;
+text-align: center;
+color:  rgba(176, 39, 39, 0.929);
+border-radius: 6px;
+}
+.navbar ul li a:hover {
+   color:  rgba(176, 39, 39, 0.929);
+}
+.navbar .form-control{
+    border: none;
+   width: 300px;
+}
+.btn-st{
+    color: #fff;
+    font-size: 20px;
+}
+.btn-st:hover{
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+}

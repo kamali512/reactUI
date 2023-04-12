@@ -1,0 +1,23 @@
+.main-header{
+    background-color: #444;
+    color: white;
+    height: 300px;
+    width: 300px;
+    margin-top: 10%;
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px 4px #323131;
+  }
+  .main-navbar{
+    background-color: #fff;
+    color: #323131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-transform: uppercase;
+  }
+  .main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
