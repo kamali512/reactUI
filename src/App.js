@@ -1,15 +1,10 @@
-import Card from './component/card/card';
-import Footer from './component/footer/footer';
-import HeroSection from './component/heroSection/heroSection';
-import Navbar from './component/navbar/navbar';
+import React from "react";
+import Counter from "./Day_2/counter";
 function App() {
   return (
-    <>
-        <Navbar/>
-        <HeroSection/>
-        <Card />
-        <Footer/>
-    </>
+    <React.Fragment>
+      <Counter/>
+    </React.Fragment>
   );
 }
 
