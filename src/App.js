@@ -1,9 +1,9 @@
 import React from "react";
-import Counter from "./Day_2/counter";
+import TodoApp from "./TodoApp/TodoApp";
 function App() {
   return (
     <React.Fragment>
-      <Counter/>
+      <TodoApp/>
     </React.Fragment>
   );
 }
